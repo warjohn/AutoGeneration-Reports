@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a32a2f4-feb9-4233-8e41-775c21f09e1b" name="Changes" comment="v0.1.6">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sklearn_report_generator.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sklearn_report_generator.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sklearn_report_generator.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sklearn_report_generator.egg-info/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sklearn_report_generator.egg-info/top_level.txt" beforeDir="false" />
+    <list default="true" id="1a32a2f4-feb9-4233-8e41-775c21f09e1b" name="Changes" comment="v0.1.7">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportGeneration/DOCS_format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportGeneration/HTML_format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportGeneration/LoaderConfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportGeneration/PDF_format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportGeneration/calculateMetrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportGeneration/drawgraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportGeneration/generatelogs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportGeneration/reportGeneration.py" beforeDir="false" afterPath="$PROJECT_DIR$/reportGeneration/reportGeneration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Setup Script" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -136,13 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739016121497</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v0.1.7">
+      <option name="closed" value="true" />
+      <created>1739016536622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739016536622</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v0.1" />
     <MESSAGE value="v0.1.5" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="v0.1.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.1.6" />
+    <MESSAGE value="v0.1.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.1.7" />
   </component>
 </project>

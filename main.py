@@ -6,6 +6,8 @@ if __name__ == "__main__":
     data = load_iris()
     X = data.data
     y = data.target
+    X = X[y != 2]
+    y = y[y != 2]
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
     report_generator = SklearnReportGenerator(config_file='config.yaml', output_format="PDF")

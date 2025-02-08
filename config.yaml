@@ -8,7 +8,6 @@ model:
   name: KNeighborsClassifier
   params:
     weights: 'distance'
-    algorithm: 'ball_tree'
     leaf_size: 1
 selectionParams:
   enable: True
@@ -26,3 +25,6 @@ metrics:
     params:
       average: weighted
       zero_division: 0
+pictures:
+  - name: roc_curve
+  - name: confusion_matrix
