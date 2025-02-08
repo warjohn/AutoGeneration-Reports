@@ -1,0 +1,5 @@
+PyYAML
+matplotlib
+scikit-learn
+python-docx
+reportlab
