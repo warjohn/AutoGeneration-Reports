@@ -7,7 +7,7 @@ This Python library helps generate detailed reports for scikit-learn models. It 
 To install the library, use `pip`:
 
 ```bash
-  pip install sklearn_report_generator
+  pip install sklearn-report-generator
 ```
 
 ## Usage
