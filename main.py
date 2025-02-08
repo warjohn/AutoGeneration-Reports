@@ -1,4 +1,4 @@
-from utils.reportGeneration import SklearnReportGenerator
+from reportGeneration.reportGeneration import SklearnReportGenerator
 
 if __name__ == "__main__":
     from sklearn.datasets import load_iris
