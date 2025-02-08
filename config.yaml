@@ -1,0 +1,28 @@
+transformers:
+  - name: StandardScaler
+    params: {}
+  - name: OneHotEncoder
+    params:
+      handle_unknown: ignore
+model:
+  name: KNeighborsClassifier
+  params:
+    weights: 'distance'
+    algorithm: 'ball_tree'
+    leaf_size: 1
+selectionParams:
+  enable: True
+  name: GridSearchCV
+  params:
+    cv: 5
+    verbose: 3
+    n_jobs: 20
+  param_grid:
+    KNeighborsClassifier__leaf_size: [1, 2, 20]
+metrics:
+  - name: accuracy_score
+    params: {}
+  - name: precision_score
+    params:
+      average: weighted
+      zero_division: 0
