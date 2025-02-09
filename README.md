@@ -6,7 +6,7 @@ This Python library helps generate detailed reports for scikit-learn models. It 
 
 To install the library, use `pip`:
 
-```bash
+```commandline
   pip install sklearn-report-generator
 ```
 
@@ -14,8 +14,18 @@ To install the library, use `pip`:
 
 After installation, you can use the SklearnReportGenerator to train a model, generate predictions, and create reports.
 
+## Project Structure
+```
+- reportGeneration - main class
+- calculateMetrics - main class that calculates metrics
+- DOCS_format/HTMP_format/PDF_format - classes that create output files of different formats
+- drawgraph - class that draws graphs
+- generatelogs - debug class (!in development!)
+- LoaderConfig - laod file "config.yaml"
+```
+
 ### Example
-```commandline
+```python
 from reportGeneration.reportGeneration import SklearnReportGenerator
 
 if __name__ == "__main__":
@@ -34,7 +44,7 @@ if __name__ == "__main__":
 ## Configuration Example
 
 The configuration file (config.yaml) defines the transformers, model, selection parameters (optional), and metrics to be used in the report generation.
-```commandline
+```yaml
 transformers:
   - name: StandardScaler
     params: {}
@@ -63,6 +73,9 @@ metrics:
     params:
       average: weighted
       zero_division: 0
+pictures:
+  - name: roc_curve
+  - name: confusion_matrix
 ```
 
 ## Configuration Breakdown
