@@ -1,3 +1,5 @@
+import pkg_resources
+
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase.ttfonts import TTFont
@@ -5,7 +7,10 @@ from reportlab.pdfbase import pdfmetrics
 
 
 class GeneratePdfReport():
-    pdfmetrics.registerFont(TTFont('TimesNewRoman', '../fonts/Times_New_Roman.ttf'))
+    font_path = pkg_resources.resource_filename(
+        'reportGeneration', 'fonts/Times_New_Roman.ttf'
+    )
+    pdfmetrics.registerFont(TTFont('TimesNewRoman', font_path))
 
     @classmethod
     def generatereport(cls, report_file, model_name, train_time, result_metrics):

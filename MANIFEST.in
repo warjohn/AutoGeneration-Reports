@@ -1,1 +1,4 @@
-include fonts/*.ttf
+recursive-include reportGeneration/fonts *
+recursive-include reportGeneration/web/static *
+recursive-include reportGeneration/web/templates *
+recursive-include reportGeneration/database *

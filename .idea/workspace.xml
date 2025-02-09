@@ -4,19 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a32a2f4-feb9-4233-8e41-775c21f09e1b" name="Changes" comment="v0.1.7">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reportGeneration/DOCS_format.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reportGeneration/HTML_format.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reportGeneration/LoaderConfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reportGeneration/PDF_format.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reportGeneration/calculateMetrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reportGeneration/drawgraph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reportGeneration/generatelogs.py" afterDir="false" />
+    <list default="true" id="1a32a2f4-feb9-4233-8e41-775c21f09e1b" name="Changes" comment="v0.2 - Added creation of graphs">
+      <change afterPath="$PROJECT_DIR$/reportGeneration/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportGeneration/database/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportGeneration/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportGeneration/web/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportGeneration/web/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportGeneration/web/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reportGeneration/reportGeneration.py" beforeDir="false" afterPath="$PROJECT_DIR$/reportGeneration/reportGeneration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Times_New_Roman.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/reportGeneration/fonts/Times_New_Roman.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportGeneration/PDF_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/reportGeneration/PDF_format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportGeneration/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/reportGeneration/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +69,13 @@
     &quot;last_opened_file_path&quot;: &quot;/home/menar/Projects/Python/Report-Generation&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/reportGeneration/web/static" />
+      <recent name="$PROJECT_DIR$/reportGeneration/web/templates" />
+      <recent name="$PROJECT_DIR$/reportGeneration" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python">
       <module name="Report-Generation" />
@@ -149,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739016536622</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="v0.2 - Added creation of graphs">
+      <option name="closed" value="true" />
+      <created>1739032887373</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739032887373</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,6 +174,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="v0.1.6" />
     <MESSAGE value="v0.1.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.1.7" />
+    <MESSAGE value="v0.2 - Added creation of graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.2 - Added creation of graphs" />
   </component>
 </project>

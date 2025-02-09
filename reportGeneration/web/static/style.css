@@ -1,0 +1,106 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Центрирование по вертикали */
+    flex-direction: column;
+}
+
+/* Стили для контейнера */
+.container, .login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Центрирование содержимого внутри */
+}
+
+/* Стили для формы логина */
+.login-container h1 {
+    color: #333;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Отступы между полями */
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Стили для кнопок, чтобы они располагались в ряд */
+.button-container {
+    display: flex;
+    gap: 10px; /* Отступы между кнопками */
+    justify-content: center; /* Центрируем кнопки */
+}
+
+/* Индивидуальные стили для кнопок */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px; /* Можно настроить ширину кнопок */
+    text-align: center;
+}
+
+button:hover {
+    background-color: #45a049; /* Цвет при наведении */
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+/* Стили для главной страницы */
+.container h1 {
+    color: #333;
+}
+
+.container p {
+    color: #777;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+

@@ -2,14 +2,21 @@ from setuptools import setup, find_packages
 
 setup(
     name='sklearn_report_generator',
-    version='0.1.2',
+    version='0.2.3',
     packages=find_packages(),
     install_requires=[
-        "PyYAML",
-        "matplotlib",
+        "uvicorn",
+        "fastapi",
         "scikit-learn",
+        "matplotlib",
+        "seaborn",
+        "reportlab",
         "python-docx",
-        "reportlab"
+        "PyYAML",
+        "setuptools",
+        "starlette",
+        'jinja2',
+        'python-multipart'
     ],
     author='Menar',
     author_email='johnvoroninA@gmail.com',
@@ -23,7 +30,10 @@ setup(
         'Operating System :: OS Independent',
     ],
     package_data={
-        '': ['fonts/*.ttf'],
+        'reportGeneration': ['fonts/*.ttf'],
+        'reportGeneration.styles': ['web/static/*.css'],
+        'reportGeneration.web': ['web/templates/*.html'],
+        'reportGeneration.database': ['database/*']
     },
     include_package_data=True,
 )
